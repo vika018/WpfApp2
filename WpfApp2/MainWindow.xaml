@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="400" Width="450">
     <Grid>
-        
+        <StackPanel>
+            <TextBlock>Введите число N
+            <TextBox Name="nn" Width="200" Height="17"></TextBox>
+            <Button Width="70" Height="18" Click="Button_Click">Найти</Button></TextBlock>
+            <TextBlock>Возможные перестановки цифр числа:</TextBlock>
+            <TextBox Name="vv" Width="400" Height="320" HorizontalAlignment="Left"></TextBox>
+            
+        </StackPanel>
     </Grid>
 </Window>
